@@ -1,5 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/venv,vscode,python,django,virtualenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=venv,vscode,python,django,virtualenv
+
+# Created by https://www.toptal.com/developers/gitignore/api/python,django,vscode,virtualenv,venv
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,django,vscode,virtualenv,venv
 
 ### Django ###
 *.log
@@ -119,9 +120,9 @@ celerybeat.pid
 # Environments
 # .env
 .env/
-.c-venv/
+.venv/
 env/
-c-venv/
+venv/
 ENV/
 env.bak/
 venv.bak/
@@ -252,4 +253,4 @@ pip-selfcheck.json
 !.vscode/extensions.json
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/venv,vscode,python,django,virtualenv
+# End of https://www.toptal.com/developers/gitignore/api/python,django,vscode,virtualenv,venv
